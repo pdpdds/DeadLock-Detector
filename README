@@ -1,0 +1,12 @@
+1. Descryption
+this module implements deadlock detection systems.
+
+2. Theory
+module hook win32 lock function, EnterCriticalSection, LeaveCriticalSection...
+when each function is entered, module record many info. and deadlock detection thread judge deadlock state.
+it use stackwalker internally, and outputs callstack if deadlock is revealed.
+
+3. Required
+it can compile visual studio 2008(of course it is possible in VS2005, VS2010)
+
+
