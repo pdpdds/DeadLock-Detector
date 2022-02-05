@@ -7,6 +7,6 @@ when each function is entered, module record many info. and deadlock detection t
 it use stackwalker internally, and outputs callstack if deadlock is revealed.
 
 3. Required
-it can compile visual studio 2008(of course it is possible in VS2005, VS2010)
+visual studio 2019
 
 
